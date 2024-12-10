@@ -1,3 +1,4 @@
+"""this file is just as an working file, if i mess up sonething, i got it saved and don´t have to look for a earlier version."""
 import json
 
 def load_data(file_path):
@@ -7,11 +8,10 @@ def load_data(file_path):
 
 
 def seralize_animal(obj):
-    """here every fox gets an own card written """
     output = ''
-    output += '<li class="cards__item">\n'
+    output += '<li class ="cards__item>\n'
     try:
-        output += f'<div class="card_title"><strong>Name:</strong> {obj["name"]}</div>\n'
+        output += f'<div class="card_title">{obj["name"]}</div>\n'
     except KeyError:
         pass
     output += '<p class="card__text">'
@@ -30,14 +30,14 @@ def seralize_animal(obj):
         output += f'<strong>Type:</strong> {obj["characteristics"]["type"]}<br/>\n'
     except KeyError:
         pass
-    output += '</p>'
-    output += '</li>'
+    output += '</p></li>'
     return output
 
 
+#print(output)
 animals_data = load_data('animal_data.json')
 output = ""
 for fox in range(len(animals_data)):
     output += seralize_animal(animals_data[fox])
 
-
+print(output)

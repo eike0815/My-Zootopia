@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="740a95e7-acef-4f09-84ce-c67f8cb0f085" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bringing_animals_to_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seralization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animals.html" beforeDir="false" afterPath="$PROJECT_DIR$/animals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animals_web_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/animals_web_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +30,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.animals_web_generator.executor": "Run",
+    "Python.bringing_animals_to_html.executor": "Run",
+    "Python.seralization.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
