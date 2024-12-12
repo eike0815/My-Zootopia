@@ -58,7 +58,7 @@ def main():
     animals_data = load_data('animal_data.json')
     animal_on_card = building_all_cards(animals_data)
     final_result = bring_animals_to_html(animal_on_card)
-    print(final_result)
+
 
 
 if __name__ == "__main__":
