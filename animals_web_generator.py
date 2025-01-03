@@ -6,6 +6,8 @@ def load_data(file_path):
   with open(file_path, "r") as handle:
     return json.load(handle)
 
+print(load_data('animal_data.json'))
+print('hello')
 
 def seralize_animal(obj):
     """here every fox gets an own card written """
@@ -41,6 +43,7 @@ def building_all_cards(cards):
     output = ""
     for fox in range(len(cards)):
         output += seralize_animal(cards[fox])
+        print(len(cards))
     return output
 
 
